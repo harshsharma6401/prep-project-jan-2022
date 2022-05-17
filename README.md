@@ -1,12 +1,16 @@
 # MLH Prep Project
+It is a Reactjs-based weather website with an integrated **Progressive Web App**. 
+The application fetched weather from your location once you allow your location. It comes with basic weather information like Temperature, Pressure, Humidity, Visibility and Wind speed. The application shows **Hourly and weekly forecasts** for the current city and displays the same in **Graphical Interpretation.**
+If present, It shows the **Weather-warnings** for the impending problems with the weather.
 
-Over the next 2 weeks, you'll be building a React App that works with various APIs (Application Programming Interfaces) that talk to different data sources to do cool stuff.
+The user can also check this information for another location by simply searching it or pin pointing it on the Map.
 
-We're using the [OpenWeather API](https://openweathermap.org/current) to get weather data on different cities. Your challenge over the next 2 weeks is to build out this website and add even more functionality to it. At the moment, it displays basic information about a location when you type it in. Check out [Issues](/issues) for some more ideas!
+We're using the [OpenWeather API](https://openweathermap.org/current) to get weather data on different cities. The [Leaflet](https://react-leaflet.js.org/) is used for map, [React Search Autocomplete](https://www.npmjs.com/package/react-search-autocomplete) is used for the Search bar, [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) is used for fetching the current location to get weather data of the current city, [Howler](https://www.npmjs.com/package/howler) for sounds, [ChartJs](https://www.chartjs.org/) for charts, and Lottie animation is used for animations.
+ 
 
-You'll need to get your own API Key from their website (for free) and add it as an environment variable in a `.env` file. We have a template available as `example.env`.
 
-You'll be using React initially to build this. If you're new to React, check out the [website](https://reactjs.org) for some information on getting started! 
+![mlh-prep-proj-ss](https://user-images.githubusercontent.com/71374972/168884232-a7f03200-5af3-443c-baad-ac17596cd2e5.png)
+
 
 ## Setting Up The Project Locally
 - Make sure you have [Node.JS and NPM](https://nodejs.org/en/download/package-manager/) installed.
