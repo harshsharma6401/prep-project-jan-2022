@@ -1,6 +1,7 @@
 # MLH Prep Project
-It is a Reactjs-based weather website with an integrated **Progressive Web App**. 
-The application fetched weather from your location once you allow your location. It comes with basic weather information like Temperature, Pressure, Humidity, Visibility and Wind speed. The application shows **Hourly and weekly forecasts** for the current city and displays the same in **Graphical Interpretation.**
+It is a **Reactjs-based** weather website with an integrated [**Progressive Web App**](https://create-react-app.dev/docs/making-a-progressive-web-app/). 
+
+The application fetches weather for your location once you allow your location. It comes with basic weather information like Temperature, Pressure, Humidity, Visibility, Wind speed and how the weather Feels' like. The application shows **Hourly and weekly forecasts** for the current city and displays the same in **Graphical Interpretation.**
 If present, It shows the **Weather-warnings** for the impending problems with the weather.
 
 The user can also check this information for another location by simply searching it or pin pointing it on the Map.
